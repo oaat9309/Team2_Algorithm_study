@@ -37,3 +37,5 @@ function selfNumber() {
   }
   console.log(answer);
 }
+
+//이거 왜 틀렸다고 나오는지 모ㄹ겠음
