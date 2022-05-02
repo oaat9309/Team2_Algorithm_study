@@ -2,7 +2,7 @@
 
 let fs = require('fs');
 const filePath = process.platform === "linux" ? "/dev/stdin" : "input.txt";
-let input = fs.readFileSync('input.txt').toString();
+let input = fs.readFileSync('input.txt').toString().trim().split(' ');
 
 if (input[0] === '') {
   console.log(0);
