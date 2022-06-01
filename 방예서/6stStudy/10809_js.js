@@ -8,11 +8,3 @@ const alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p
 const result = alphabet.map(x => input.indexOf(x));
 
 console.log(...result);
-
-const a = [];
-
-for (let i = 97; i <= 122; i++) {
-  a.push(String.fromCharCode(i));
-}
-
-console.log(a);
